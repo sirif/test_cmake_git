@@ -1,9 +1,15 @@
 #include <iostream>
+#include <QtCore>
+#include <QDebug>
+#include <QApplication>
+#include "main_widget/mainwidget.h"
 
-using namespace std;
-
-int main()
+int main(int argc, char* argv[])
 {
-    cout << "Hello World!" << endl;
-    return 0;
+    QApplication a(argc, argv);
+    //cout << "Hello World!" << endl;
+//    qDebug() << "fake";
+    MainWidget mw;
+    mw.show();
+    return a.exec();
 }
