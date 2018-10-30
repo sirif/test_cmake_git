@@ -1,1 +1,1 @@
-jast test cmake & git functions
+just test cmake & git functions
