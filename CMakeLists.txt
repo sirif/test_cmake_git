@@ -17,6 +17,8 @@ find_package(Qt5Core REQUIRED)
 
 set(SOURCES
     main.cpp
+    .gitignore
+    readme.txt
 )
 
 add_executable(test_cmake_git ${SOURCES})
